@@ -1,0 +1,52 @@
+body{
+    
+    background-image: url("https://www.escolavirtual.pt/themes/ev/assets/images/Blogue/noticia_19_09_2022_2.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    background-position: center;
+    color: aliceblue;
+}
+h1, h2{
+font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+    margin-top: 50px;
+}
+
+.form-escola > input{
+background-color: rgba(0, 0, 0, 0.158);
+font-style: italic;
+border-radius: 5px;
+border-width: 2px;
+color:aliceblue;
+border-color: aliceblue;
+}
+
+.form-escola > input::placeholder{
+color:aliceblue;
+}
+
+.form-escola > select{
+    background-color: rgba(0, 0, 0, 0.13);
+    border-radius: 5px;
+    color:aliceblue;
+    border-color: aliceblue;
+}
+.form-escola > label{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: aliceblue;
+}
+.botao input{
+background-color:rgba(0, 0, 0, 0.13) ;
+border-radius: 5px;
+color: aliceblue;
+border-color: aliceblue;
+}
+
+.botao > input:hover{
+    background-color: rgba(250, 235, 215, 0.363);
+    color: #000;
+}
